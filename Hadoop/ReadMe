@@ -1,3 +1,7 @@
+1.Implemented MapReduce join for deriving statistics from Yelp dataset
+2.Implemented the concepts of in memory join, reduce side join, job chaining techniques, distributed cache for extraction of data
+3.Implemented key value pair conversion, secondary sorting techniques for relational join
+
 Source files
 
 Question1 -> MutualFriend.jar
