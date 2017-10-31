@@ -1,3 +1,6 @@
+-> Mutual friend suggestions has been implemented using RDD Transformations,actions and in spark sql.
+->Derived Results from Yelp statistics using RDD transformations,actions and in spark sql
+
 1. Home Work has been done on Intellij IDE as maven project with scala plugin spark and spark sql dependencies. A jAR file has been created to run the home work. If to run from source files create scala objects under a package 'spark' in Intellij. To run from JAR which is shared along with this documents is given below. Also i have mentioned the program that corresponds to respective questions in this documents
 
 2. Output for first question is in mutualfriend and mutualfrienddf respectively. Rest are in output folder and source files are in Source files
