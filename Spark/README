@@ -1,0 +1,64 @@
+1. Home Work has been done on Intellij IDE as maven project with scala plugin spark and spark sql dependencies. A jAR file has been created to run the home work. If to run from source files create scala objects under a package 'spark' in Intellij. To run from JAR which is shared along with this documents is given below. Also i have mentioned the program that corresponds to respective questions in this documents
+
+2. Output for first question is in mutualfriend and mutualfrienddf respectively. Rest are in output folder and source files are in Source files
+
+
+Question 1
+
+a. Spark- Mutualfriend.scala
+b. Command to run: 
+
+spark-submit --class spark.Mutualfriend --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input text file path> <Output text file path>
+
+c: Spark sql- Mutualfrienddf.scala
+
+d.Command to run:
+
+spark-submit --class spark.Mutualfrienddf --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input text file path> <Output text file path>
+
+
+Question 2.
+
+a. Spark-  Userdetails.scala
+b.Command to run
+
+spark-submit --class spark.Userdetails --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file1> <input file2> <output file>
+
+c. Spark sql - Userdetailsdf.scala
+
+d.Command to run
+
+spark-submit --class spark.Userdetailsdf --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file1> <input file 2> <output file>
+
+Question 3:
+
+a.Spark-  Yelpstats.scala
+b. Command to run
+
+spark-submit --class spark.Yelpstats --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file 1> <input file 2> <output file>
+
+c. Spark sql- Yelpstatsdf.scala
+d.Command to run
+
+spark-submit --class spark.Yelpstatsdf --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file1><input file2><output file>
+
+Question 4:
+
+a. Spark- Userrating.scala
+b.Command to run
+
+spark-submit --class spark.Userrating --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file 1> <input file 2> <output file>
+
+c. Spark sql- Userratingdf.scala
+d.Command to run
+
+spark-submit --class spark.Userratingdf --master local /home/sreenivas/IdeaProjects/mutual/target/mutual-1.0-SNAPSHOT.jar <input file 1> <input file 2><output file>
+
+
+
+
+
+
+
+
+
