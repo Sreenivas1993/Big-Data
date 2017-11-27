@@ -1,2 +1,3 @@
 1.Implemented in MapReduce using Hadoop 
 2.Implemented in Apache Spark using Scala
+3.Implemented KMeans and Recommendation System using Spark MLLIB Library. Implemented Twitter Streaming Sentiment Analysis using Scala Twitter API and Standford Core NLP
