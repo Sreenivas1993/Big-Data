@@ -14,10 +14,10 @@ def main(args: Array[String]): Unit = {
     val filters=Seq(args(0))
     //sparkstreaming context
     val ssc = new StreamingContext(sc, Seconds(5))
-    System.setProperty("twitter4j.oauth.consumerKey", "jrPlepQGYmtZkO4locnUwawHe")
-    System.setProperty("twitter4j.oauth.consumerSecret","JWREIWrENWcGt37FEyTPhfE34j4O1w6kkF02wCUhLB28blZ0nq")
-    System.setProperty("twitter4j.oauth.accessToken", "899279922639675392-qWkTEtTiWJ6dYPrefliL21s2FkqWY6I")
-    System.setProperty("twitter4j.oauth.accessTokenSecret", "K6rXIUlCMl7HUFYPIXvbgC14DY4LrLtgxjIbGh5aavZWN")
+    System.setProperty("twitter4j.oauth.consumerKey", "")
+    System.setProperty("twitter4j.oauth.consumerSecret","")
+    System.setProperty("twitter4j.oauth.accessToken", "")
+    System.setProperty("twitter4j.oauth.accessTokenSecret", "")
     val stream = TwitterUtils.createStream(ssc, None,filters)
     //filtering based on tags,location,language
     val hashtweets=stream.filter(_.getLang()=="en").filter(
